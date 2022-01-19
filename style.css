@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(235, 213, 117, 0.774) ,rgba(248, 103, 7, 0.555));
+    padding: 20px;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    margin: 30px;
+}
+
+.navbar{
+    padding: 0%;
+    color: rgb(150, 111, 12);
+    display:flex ;
+    width: 100%;
+    justify-content:space-around;
+    background-color: rgb(238, 206, 164);
+        
+}
+.nav-item:hover{
+    color: rgb(68, 16, 7);
+}
+#link{
+    text-decoration: none;
+    color: rgb(150, 111, 12);;
+}
+#link:hover{
+    color: tomato;
+}
+h2{
+    margin-right: 10px;
+}
+.audio, .video{
+    width: 60%;
+}
+.food-type{
+    display: flex;
+    justify-content: space-evenly;
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 4px solid rgba(196, 28, 78, 0.877);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.job-application{
+    display:flex ;
+    width: 100%;
+    justify-content:space-around;
+    
+}
+.job-img{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+}
+.job-info{
+    padding: 5px;
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(232 171 171);
+    color: rgb(92, 20, 8);
+    border:2px solid darkred;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 700;
+}
+button:hover{
+    background-image: linear-gradient( rgb(232 171 171), rgba(243, 80, 4, 0.911));
+    color: rgb(31, 24, 23);
+}
