@@ -74,8 +74,12 @@ table, th, td{
 }
 .job-info{
     margin-top: 5%;
-    padding: 5px;
+    padding: 15px;
     display: grid;
+    border: 10px solid rgb(221, 180, 127);
+    border-radius: 10%;
+    box-shadow: 5px 10px rgb(180, 170, 123);
+    
     
 }
 button{
@@ -93,6 +97,7 @@ button:hover{
     color: rgb(31, 24, 23);
 }
 footer{
+    margin-top: 15px;
     text-align: center;
     padding: 5%;
     background-color: #eecea4;
